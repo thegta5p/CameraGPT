@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70E0DAB2A0EC19F0053C183 /* CameraGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DAA2A0EC19F0053C183 /* CameraGPTApp.swift */; };
+		F70E0DAD2A0EC19F0053C183 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DAC2A0EC19F0053C183 /* ContentView.swift */; };
+		F70E0DAF2A0EC1A00053C183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70E0DAE2A0EC1A00053C183 /* Assets.xcassets */; };
+		F70E0DB22A0EC1A00053C183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70E0DB12A0EC1A00053C183 /* Preview Assets.xcassets */; };
+		F70E0DBC2A0EC1A00053C183 /* CameraGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DBB2A0EC1A00053C183 /* CameraGPTTests.swift */; };
+		F70E0DC62A0EC1A00053C183 /* CameraGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DC52A0EC1A00053C183 /* CameraGPTUITests.swift */; };
+		F70E0DC82A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DC72A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70E0DB82A0EC1A00053C183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70E0D9F2A0EC19F0053C183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70E0DA62A0EC19F0053C183;
+			remoteInfo = CameraGPT;
+		};
+		F70E0DC22A0EC1A00053C183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70E0D9F2A0EC19F0053C183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70E0DA62A0EC19F0053C183;
+			remoteInfo = CameraGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70E0DA72A0EC19F0053C183 /* CameraGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E0DAA2A0EC19F0053C183 /* CameraGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTApp.swift; sourceTree = "<group>"; };
+		F70E0DAC2A0EC19F0053C183 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F70E0DAE2A0EC1A00053C183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70E0DB12A0EC1A00053C183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F70E0DB72A0EC1A00053C183 /* CameraGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E0DBB2A0EC1A00053C183 /* CameraGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTTests.swift; sourceTree = "<group>"; };
+		F70E0DC12A0EC1A00053C183 /* CameraGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E0DC52A0EC1A00053C183 /* CameraGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTUITests.swift; sourceTree = "<group>"; };
+		F70E0DC72A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70E0DA42A0EC19F0053C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DB42A0EC1A00053C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DBE2A0EC1A00053C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70E0D9E2A0EC19F0053C183 = {
+			isa = PBXGroup;
+			children = (
+				F70E0DA92A0EC19F0053C183 /* CameraGPT */,
+				F70E0DBA2A0EC1A00053C183 /* CameraGPTTests */,
+				F70E0DC42A0EC1A00053C183 /* CameraGPTUITests */,
+				F70E0DA82A0EC19F0053C183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70E0DA82A0EC19F0053C183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70E0DA72A0EC19F0053C183 /* CameraGPT.app */,
+				F70E0DB72A0EC1A00053C183 /* CameraGPTTests.xctest */,
+				F70E0DC12A0EC1A00053C183 /* CameraGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70E0DA92A0EC19F0053C183 /* CameraGPT */ = {
+			isa = PBXGroup;
+			children = (
+				F70E0DAA2A0EC19F0053C183 /* CameraGPTApp.swift */,
+				F70E0DAC2A0EC19F0053C183 /* ContentView.swift */,
+				F70E0DAE2A0EC1A00053C183 /* Assets.xcassets */,
+				F70E0DB02A0EC1A00053C183 /* Preview Content */,
+			);
+			path = CameraGPT;
+			sourceTree = "<group>";
+		};
+		F70E0DB02A0EC1A00053C183 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F70E0DB12A0EC1A00053C183 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F70E0DBA2A0EC1A00053C183 /* CameraGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70E0DBB2A0EC1A00053C183 /* CameraGPTTests.swift */,
+			);
+			path = CameraGPTTests;
+			sourceTree = "<group>";
+		};
+		F70E0DC42A0EC1A00053C183 /* CameraGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70E0DC52A0EC1A00053C183 /* CameraGPTUITests.swift */,
+				F70E0DC72A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift */,
+			);
+			path = CameraGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70E0DA62A0EC19F0053C183 /* CameraGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E0DCB2A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPT" */;
+			buildPhases = (
+				F70E0DA32A0EC19F0053C183 /* Sources */,
+				F70E0DA42A0EC19F0053C183 /* Frameworks */,
+				F70E0DA52A0EC19F0053C183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraGPT;
+			productName = CameraGPT;
+			productReference = F70E0DA72A0EC19F0053C183 /* CameraGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70E0DB62A0EC1A00053C183 /* CameraGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E0DCE2A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPTTests" */;
+			buildPhases = (
+				F70E0DB32A0EC1A00053C183 /* Sources */,
+				F70E0DB42A0EC1A00053C183 /* Frameworks */,
+				F70E0DB52A0EC1A00053C183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70E0DB92A0EC1A00053C183 /* PBXTargetDependency */,
+			);
+			name = CameraGPTTests;
+			productName = CameraGPTTests;
+			productReference = F70E0DB72A0EC1A00053C183 /* CameraGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70E0DC02A0EC1A00053C183 /* CameraGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E0DD12A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPTUITests" */;
+			buildPhases = (
+				F70E0DBD2A0EC1A00053C183 /* Sources */,
+				F70E0DBE2A0EC1A00053C183 /* Frameworks */,
+				F70E0DBF2A0EC1A00053C183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70E0DC32A0EC1A00053C183 /* PBXTargetDependency */,
+			);
+			name = CameraGPTUITests;
+			productName = CameraGPTUITests;
+			productReference = F70E0DC12A0EC1A00053C183 /* CameraGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70E0D9F2A0EC19F0053C183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F70E0DA62A0EC19F0053C183 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F70E0DB62A0EC1A00053C183 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F70E0DA62A0EC19F0053C183;
+					};
+					F70E0DC02A0EC1A00053C183 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F70E0DA62A0EC19F0053C183;
+					};
+				};
+			};
+			buildConfigurationList = F70E0DA22A0EC19F0053C183 /* Build configuration list for PBXProject "CameraGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70E0D9E2A0EC19F0053C183;
+			productRefGroup = F70E0DA82A0EC19F0053C183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70E0DA62A0EC19F0053C183 /* CameraGPT */,
+				F70E0DB62A0EC1A00053C183 /* CameraGPTTests */,
+				F70E0DC02A0EC1A00053C183 /* CameraGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70E0DA52A0EC19F0053C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E0DB22A0EC1A00053C183 /* Preview Assets.xcassets in Resources */,
+				F70E0DAF2A0EC1A00053C183 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DB52A0EC1A00053C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DBF2A0EC1A00053C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70E0DA32A0EC19F0053C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E0DAD2A0EC19F0053C183 /* ContentView.swift in Sources */,
+				F70E0DAB2A0EC19F0053C183 /* CameraGPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DB32A0EC1A00053C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E0DBC2A0EC1A00053C183 /* CameraGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E0DBD2A0EC1A00053C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E0DC62A0EC1A00053C183 /* CameraGPTUITests.swift in Sources */,
+				F70E0DC82A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70E0DB92A0EC1A00053C183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70E0DA62A0EC19F0053C183 /* CameraGPT */;
+			targetProxy = F70E0DB82A0EC1A00053C183 /* PBXContainerItemProxy */;
+		};
+		F70E0DC32A0EC1A00053C183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70E0DA62A0EC19F0053C183 /* CameraGPT */;
+			targetProxy = F70E0DC22A0EC1A00053C183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F70E0DC92A0EC1A00053C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70E0DCA2A0EC1A00053C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70E0DCC2A0EC1A00053C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CameraGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70E0DCD2A0EC1A00053C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CameraGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F70E0DCF2A0EC1A00053C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CameraGPT";
+			};
+			name = Debug;
+		};
+		F70E0DD02A0EC1A00053C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CameraGPT";
+			};
+			name = Release;
+		};
+		F70E0DD22A0EC1A00053C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraGPT;
+			};
+			name = Debug;
+		};
+		F70E0DD32A0EC1A00053C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YVE7VFA7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IsaacCastro.CameraGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70E0DA22A0EC19F0053C183 /* Build configuration list for PBXProject "CameraGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E0DC92A0EC1A00053C183 /* Debug */,
+				F70E0DCA2A0EC1A00053C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E0DCB2A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E0DCC2A0EC1A00053C183 /* Debug */,
+				F70E0DCD2A0EC1A00053C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E0DCE2A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E0DCF2A0EC1A00053C183 /* Debug */,
+				F70E0DD02A0EC1A00053C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E0DD12A0EC1A00053C183 /* Build configuration list for PBXNativeTarget "CameraGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E0DD22A0EC1A00053C183 /* Debug */,
+				F70E0DD32A0EC1A00053C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70E0D9F2A0EC19F0053C183 /* Project object */;
+}
