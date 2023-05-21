@@ -14,6 +14,14 @@
 		F70E0DBC2A0EC1A00053C183 /* CameraGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DBB2A0EC1A00053C183 /* CameraGPTTests.swift */; };
 		F70E0DC62A0EC1A00053C183 /* CameraGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DC52A0EC1A00053C183 /* CameraGPTUITests.swift */; };
 		F70E0DC82A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E0DC72A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift */; };
+		F76AD8292A0EE2F4004A295D /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = F76AD8282A0EE2F4004A295D /* PythonKit */; };
+		F77C8DB52A0F47A2001C13EF /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77C8DB42A0F47A2001C13EF /* Python.xcframework */; };
+		F77C8DC42A0F5710001C13EF /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = F77C8DB92A0F48B6001C13EF /* python-stdlib */; };
+		F77C8DC82A0F61F6001C13EF /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = F77C8DC72A0F61F6001C13EF /* OpenAI */; };
+		F77C8DCE2A0F85B7001C13EF /* DisplayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77C8DCD2A0F85B7001C13EF /* DisplayResponse.swift */; };
+		F77C8DCF2A0F860E001C13EF /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77C8DCB2A0F81C2001C13EF /* add.swift */; };
+		F7C9F3F52A12C48A001EF7EE /* DetectTextInPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9F3F42A12C48A001EF7EE /* DetectTextInPhoto.swift */; };
+		F7C9F3F92A12C9E4001EF7EE /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C9F3F82A12C9E4001EF7EE /* TestImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,17 @@
 		F70E0DC12A0EC1A00053C183 /* CameraGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70E0DC52A0EC1A00053C183 /* CameraGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTUITests.swift; sourceTree = "<group>"; };
 		F70E0DC72A0EC1A00053C183 /* CameraGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F76AD82A2A0EE532004A295D /* OutputGenerator.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = OutputGenerator.py; sourceTree = "<group>"; };
+		F77C8DB42A0F47A2001C13EF /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Python.xcframework; path = "../../Python-3.11-iOS-support.b1/Python.xcframework"; sourceTree = "<group>"; };
+		F77C8DB82A0F47B8001C13EF /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "python-stdlib"; path = "../../Python-3.11-iOS-support.b1/python-stdlib"; sourceTree = "<group>"; };
+		F77C8DB92A0F48B6001C13EF /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
+		F77C8DBD2A0F4A98001C13EF /* PythonInterp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonInterp.swift; sourceTree = "<group>"; };
+		F77C8DCA2A0F7D02001C13EF /* Generate.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = Generate.mjs; sourceTree = "<group>"; };
+		F77C8DCB2A0F81C2001C13EF /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		F77C8DCD2A0F85B7001C13EF /* DisplayResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResponse.swift; sourceTree = "<group>"; };
+		F7C9F3F42A12C48A001EF7EE /* DetectTextInPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectTextInPhoto.swift; sourceTree = "<group>"; };
+		F7C9F3F82A12C9E4001EF7EE /* TestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage.png; sourceTree = "<group>"; };
+		F7C9F3FA2A1445EA001EF7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76AD8292A0EE2F4004A295D /* PythonKit in Frameworks */,
+				F77C8DC82A0F61F6001C13EF /* OpenAI in Frameworks */,
+				F77C8DB52A0F47A2001C13EF /* Python.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +96,13 @@
 		F70E0D9E2A0EC19F0053C183 = {
 			isa = PBXGroup;
 			children = (
+				F77C8DCA2A0F7D02001C13EF /* Generate.mjs */,
+				F77C8DB92A0F48B6001C13EF /* python-stdlib */,
 				F70E0DA92A0EC19F0053C183 /* CameraGPT */,
 				F70E0DBA2A0EC1A00053C183 /* CameraGPTTests */,
 				F70E0DC42A0EC1A00053C183 /* CameraGPTUITests */,
 				F70E0DA82A0EC19F0053C183 /* Products */,
+				F77C8DB32A0F47A2001C13EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +119,17 @@
 		F70E0DA92A0EC19F0053C183 /* CameraGPT */ = {
 			isa = PBXGroup;
 			children = (
+				F7C9F3FA2A1445EA001EF7EE /* Info.plist */,
+				F7C9F3F82A12C9E4001EF7EE /* TestImage.png */,
 				F70E0DAA2A0EC19F0053C183 /* CameraGPTApp.swift */,
+				F76AD82A2A0EE532004A295D /* OutputGenerator.py */,
 				F70E0DAC2A0EC19F0053C183 /* ContentView.swift */,
+				F77C8DCD2A0F85B7001C13EF /* DisplayResponse.swift */,
+				F77C8DBD2A0F4A98001C13EF /* PythonInterp.swift */,
 				F70E0DAE2A0EC1A00053C183 /* Assets.xcassets */,
 				F70E0DB02A0EC1A00053C183 /* Preview Content */,
+				F77C8DCB2A0F81C2001C13EF /* add.swift */,
+				F7C9F3F42A12C48A001EF7EE /* DetectTextInPhoto.swift */,
 			);
 			path = CameraGPT;
 			sourceTree = "<group>";
@@ -127,6 +159,15 @@
 			path = CameraGPTUITests;
 			sourceTree = "<group>";
 		};
+		F77C8DB32A0F47A2001C13EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77C8DB82A0F47B8001C13EF /* python-stdlib */,
+				F77C8DB42A0F47A2001C13EF /* Python.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +178,17 @@
 				F70E0DA32A0EC19F0053C183 /* Sources */,
 				F70E0DA42A0EC19F0053C183 /* Frameworks */,
 				F70E0DA52A0EC19F0053C183 /* Resources */,
+				F77C8DC02A0F50D8001C13EF /* Sign Python Binary Modules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CameraGPT;
+			packageProductDependencies = (
+				F76AD8282A0EE2F4004A295D /* PythonKit */,
+				F77C8DC72A0F61F6001C13EF /* OpenAI */,
+			);
 			productName = CameraGPT;
 			productReference = F70E0DA72A0EC19F0053C183 /* CameraGPT.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +261,10 @@
 				Base,
 			);
 			mainGroup = F70E0D9E2A0EC19F0053C183;
+			packageReferences = (
+				F76AD8272A0EE2F4004A295D /* XCRemoteSwiftPackageReference "PythonKit" */,
+				F77C8DC62A0F61F6001C13EF /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			productRefGroup = F70E0DA82A0EC19F0053C183 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77C8DC42A0F5710001C13EF /* python-stdlib in Resources */,
 				F70E0DB22A0EC1A00053C183 /* Preview Assets.xcassets in Resources */,
 				F70E0DAF2A0EC1A00053C183 /* Assets.xcassets in Resources */,
+				F7C9F3F92A12C9E4001EF7EE /* TestImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,12 +304,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F77C8DC02A0F50D8001C13EF /* Sign Python Binary Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sign Python Binary Modules";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\necho \"Signing as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)\"\nfind \"$CODESIGNING_FOLDER_PATH/python-stdlib/lib-dynload\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F70E0DA32A0EC19F0053C183 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77C8DCF2A0F860E001C13EF /* add.swift in Sources */,
 				F70E0DAD2A0EC19F0053C183 /* ContentView.swift in Sources */,
+				F7C9F3F52A12C48A001EF7EE /* DetectTextInPhoto.swift in Sources */,
+				F77C8DCE2A0F85B7001C13EF /* DisplayResponse.swift in Sources */,
 				F70E0DAB2A0EC19F0053C183 /* CameraGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +496,8 @@
 				DEVELOPMENT_TEAM = 3YVE7VFA7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraGPT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to capture documents";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +527,8 @@
 				DEVELOPMENT_TEAM = 3YVE7VFA7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraGPT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to capture documents";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +663,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F76AD8272A0EE2F4004A295D /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F77C8DC62A0F61F6001C13EF /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F76AD8282A0EE2F4004A295D /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F76AD8272A0EE2F4004A295D /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		F77C8DC72A0F61F6001C13EF /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77C8DC62A0F61F6001C13EF /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F70E0D9F2A0EC19F0053C183 /* Project object */;
 }

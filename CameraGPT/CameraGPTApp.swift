@@ -7,8 +7,15 @@
 
 import SwiftUI
 
+import PythonKit
+
+
 @main
+
+
 struct CameraGPTApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

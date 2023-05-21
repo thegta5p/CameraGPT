@@ -5,7 +5,11 @@
 //  Created by Isaac Castro on 5/12/23.
 //
 
+
 import SwiftUI
+import Foundation
+
+
 
 struct ContentView: View {
     var body: some View {
@@ -13,10 +17,22 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("CameraGPT").font(.title).foregroundColor(.red)
         }
         .padding()
+        
+        .onAppear(){
+           // findRes()
+          /*  let viewController = ViewController()
+            if let image = UIImage(named: "TestImage") {
+                viewController.readTextFromImage(image: image)
+            }
+            */
+        }
+        
+        
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
