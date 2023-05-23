@@ -14,20 +14,21 @@ import Foundation
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
             Text("CameraGPT").font(.title).foregroundColor(.red)
+            Text("Take a picture to upload a problem").font(.subheadline)
+            Spacer()
+            OpenCamera()
+                .padding(.bottom)
         }
         .padding()
         
         .onAppear(){
            // findRes()
-          /*  let viewController = ViewController()
+           /* let viewController = ViewController()
             if let image = UIImage(named: "TestImage") {
                 viewController.readTextFromImage(image: image)
-            }
-            */
+            }*/
+            
         }
         
         
