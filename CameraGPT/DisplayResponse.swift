@@ -26,7 +26,7 @@ func dispResult(_ testStr: String) {
 }
 
 func findRes(userInput : String) {
-    let test = "what is 1+1"
-    
+  //  let test = "what is 1+1"
+  
     dispResult(userInput)
 }

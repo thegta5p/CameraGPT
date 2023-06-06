@@ -23,11 +23,6 @@ struct ContentView: View {
         .padding()
         
         .onAppear(){
-           // findRes()
-           /* let viewController = ViewController()
-            if let image = UIImage(named: "TestImage") {
-                viewController.readTextFromImage(image: image)
-            }*/
             
         }
         

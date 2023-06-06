@@ -10,7 +10,27 @@ import UIKit
 import Vision
 
 public class ViewController: UIViewController {
-    override public func viewDidLoad() {
+    
+    func getImage(fileName: String) {
+        guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
+            // Failed to get the document directory
+            print("Failed to get directory")
+            return
+        }
+        let fileUrl = documentDirectory.appendingPathComponent(fileName)
+
+        print("Sending Image")
+        print(fileName)
+        guard let imageData = try? Data(contentsOf: fileUrl), let image = UIImage(data: imageData) else {
+            // Failed to load image from the specified directory
+            print("Image Not Found")
+            return
+        }
+        
+        readTextFromImage(image: image)
+    }
+    
+   /* override public func viewDidLoad() {
         super.viewDidLoad()
         
         guard let image = UIImage(named: "TestImage") else {
@@ -19,6 +39,7 @@ public class ViewController: UIViewController {
         }
         readTextFromImage(image: image)
     }
+    */
     
     
     func readTextFromImage(image: UIImage) {
